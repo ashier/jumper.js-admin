@@ -1,0 +1,11 @@
+module.exports = function(grunt) {
+
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json')
+  });
+
+
+  // Default task(s).
+  grunt.registerTask('default', []);
+
+};
